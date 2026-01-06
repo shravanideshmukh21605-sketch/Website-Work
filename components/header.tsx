@@ -41,9 +41,9 @@ export default function Header() {
           </nav>
 
           {/* CTA Button */}
-          {/* <button className="hidden md:block px-6 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity shadow-md hover:shadow-lg">
+          <button className="hidden md:block px-6 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity shadow-md hover:shadow-lg">
             Schedule Call
-          </button> */}
+          </button>
 
           {/* Mobile Menu Button */}
           <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
